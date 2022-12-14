@@ -1,10 +1,7 @@
 #include "main.h"
-#include <unistd.h>
 
 /**
- * _putchar - prints _putchar and a new line
- * @c: the character to print
- *
+ * main - Entry point
  * Return: Always 0
  */
 int main(void)
