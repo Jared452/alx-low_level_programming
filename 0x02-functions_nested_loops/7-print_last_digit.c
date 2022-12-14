@@ -2,20 +2,20 @@
 
 /**
  * print_last_digit - prints the last digit
- * @t: the number
+ * @n: the number
  * Return: value of the last digit
  */
-int print_last_digit(int t)
+int print_last_digit(int n)
 
 {
-	int ld;
+	int last;
 
-	ld = t % 10;
+	last = t % 10;
 
-	if (ld < 0)
-		ld *= -1;
+	if (last < 0)
+		last = last* -1;
 
-	_putchar(ld + '0');
+	_putchar(last + '0');
 
 	return (0);
 }
