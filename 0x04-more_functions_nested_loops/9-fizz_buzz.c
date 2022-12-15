@@ -1,9 +1,7 @@
 #include <stlib.h>
 #include <stdio.h>
 /**
- * main - print the number from 1 to 100
- * 3 multiplies print Fizz instead of the number
- * 5 print buzz instead of nuizzBuzz
+ * main - prints Buzz each numbers of 3 and 5.
  * Return: Always 0
  */
 int main(void)
