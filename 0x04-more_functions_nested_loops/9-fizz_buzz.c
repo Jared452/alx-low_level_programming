@@ -7,7 +7,7 @@
  * 3 & 5 print fizzBuzz
  * Return: Always 0
  */
-int main (void)
+int main(void)
 {
 int i;
 char f[] = "fizz";
