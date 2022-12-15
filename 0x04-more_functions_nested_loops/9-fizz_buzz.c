@@ -9,7 +9,7 @@ int main(void)
 
 	printf("Enter the number :");
 	scanf(" %d", &n);
-	for (i = 1; i <= n; i++)
+	for (i = 1; i <= 100; i++)
 	{
 		if (i % 15 == 0)
 			printf(" FizzBuzz");
