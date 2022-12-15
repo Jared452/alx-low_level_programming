@@ -14,15 +14,14 @@ if (size <= 0)
 {
 _putchar('\n');
 }
-
 else
 {
-
 for (co = 1; co <= size; co++)
-_putchar('#');
 {
+_putchar('#');
 
 for (cp = 2; cp <= size; cp++)
+{
 _putchar('#');
 }
 _putchar('\n');
