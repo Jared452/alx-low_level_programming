@@ -1,22 +1,26 @@
 #include "main.h"
 
 /**
- * more_numbers - function that prints 10 times the number, from 0 to 14
- * _putchar only 3 times
- * Return: 0 - 14 10 times
+ * print_line - function that darw straght line in the term
+ * @n: input number
+ * Return: straight line
  */
-void more_numbers(void)
+void print_line(int n)
 {
-	int i, ro;
 
-	for (ro = 0, ro <= 9; i++)
-	{
-		for (i = 0, i <= 14; i++)
-		{
-			if (i > 9)
-			_putchar(i / 10 + '0');
-			_putchar(i % 10 + '0');
-		}
-	}
-	_putchar('\n');
+int co;
+
+if (n <= 0)
+{
+_putchar('\n');
+}
+
+else
+{
+for (co = 1; co <= n; co++)
+{
+_putchar('_');
+}
+_putchar('\n');
+}
 }
