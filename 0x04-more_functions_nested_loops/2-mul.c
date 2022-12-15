@@ -1,12 +1,12 @@
 #include "main.h"
 
 /**
- * _isupper - checks
- * @c: input character.
- * Return: 
+ * mul - function that multipliesvtwo integer
+ * @a: first number
+ * @b: second number
+ * Return: multiplication result
  */
-int _isupper(int c)
+int mul(int a, int b)
 {
-        
-
+return (a * b);
 }
