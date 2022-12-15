@@ -5,10 +5,8 @@
  */
 int main(void)
 {
-	int i, n;
+	int i;
 
-	printf("Enter the number :");
-	scanf("%d", &n);
 	for (i = 1; i <= 100; i++)
 	{
 		if (i % 15 == 0)
