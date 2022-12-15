@@ -1,5 +1,4 @@
-#include <stlib.h>
-#include <stdio.h>
+#include "main.h"
 /**
  * print_triangle - prints atriangle
  * @size: size of triangle
