@@ -17,9 +17,11 @@ _putchar('\n');
 
 else
 {
+
 for (co = 1; co <= n; co++)
 {
-for (cp = 1; cp <= n; cp++)
+
+for (cp = 1; cp <= co; cp++)
 {
 _putchar(' ');
 }
