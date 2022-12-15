@@ -10,17 +10,16 @@ int main(void)
 	for (i = 1; i <= 100; i++)
 	{
 		if (i % 15 == 0)
-			printf("%d FizzBuzz\t");
+			printf("FizzBuzz\t");
 
 		else if ((i % 3) == 0)
-			printf("%d Fizz\t");
+			printf("Fizz\t");
 
 		else if ((i % 5) == 0)
-			printf("%d Buzz\t");
+			printf("Buzz\t");
 
 		else
 			printf("%d\t", i);
 	}
 	return (0);
-	printf("\n");
 }
